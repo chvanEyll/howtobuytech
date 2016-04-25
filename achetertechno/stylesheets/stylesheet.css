@@ -1,0 +1,137 @@
+/* général */
+body {
+	margin: auto;
+	max-width: 950px;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 16px;
+	}
+	
+.topmenu {
+	text-align: center; 
+	width: 100%; 
+	margin-top: 25px; 
+	margin-bottom: 47px;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.topmenu a {
+float: left; 
+width: 23%; 
+margin-right: 1%; 
+margin-left: 1%; 
+margin-bottom: 4%;
+}
+
+
+/* firstpage */
+.cases {
+		width: 100%;
+		max-width: 950px;
+	}
+#brighten img {
+	-webkit-filter: brightness(100%);
+	-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#brighten img:hover {
+  -webkit-filter: brightness(125%);
+}
+
+/* subbanner */
+.subb {
+	width: 100%;
+	background: #3296e1;
+}
+.subblink {
+	width: 18%;
+	display: inline-block;
+	border-left: 1pt;
+	border-color: white;
+	text-align: center;
+	vertical-align: middle;
+	margin: auto;
+}
+#firstsubblink {
+	width: 24%;
+	border-left: none;
+}
+.subb a:link {
+	color: white;
+}
+.subb a:visited {
+	color: white;
+}
+.subb a:hover {
+	color: white;
+}
+.subb a:active {
+	color: white;
+	}
+
+img {
+max-width: 100%; margin: auto;
+}
+
+h1 {
+	font-size: 20px;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+a:link {
+color: #3296e1; text-decoration: none
+}
+a:visited {
+color: #3296e1; text-decoration: none
+}
+a:hover {
+color: #85bde8; text-decoration: none
+}
+a:active {
+color: #3296e1; text-decoration: none
+}
+
+footer {
+display: block;
+clear: both;
+font-size: 12px; 
+font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; 
+text-align: center;
+}
+
+.mobileLink {
+	height: 36px;
+	font-size: 24px;
+	background-color: #3296e1;
+	text-align: left;
+	margin-bottom: 2px;
+}
+
+.mobileLink a {
+	vertical-align: middle;
+	margin-left: 3%;
+}
+
+.mobileLink a:link {
+color: white; text-decoration: none
+}
+.mobileLink a:visited {
+color: white; text-decoration: none
+}
+.mobileLink a:hover {
+color: white; text-decoration: none
+}
+.mobileLink a:active {
+color: white; text-decoration: none
+}
